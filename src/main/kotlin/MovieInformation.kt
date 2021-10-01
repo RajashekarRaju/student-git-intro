@@ -12,6 +12,7 @@ fun main() {
     val movieList: ArrayList<Movie> = MovieData.movieList()
 
     movieList.add(Movie("Zodiac", 10.0))
+    movieList.add(Movie("The Raid", 9.9))
 
     movieList.forEach { movie ->
         val title = movie.titleOfTheMovie
